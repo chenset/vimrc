@@ -1,3 +1,7 @@
+" for windows
+source $VIMRUNTIME/mswin.vim
+behave mswi
+
 " add by xhat
 set encoding=utf-8
 set termencoding=utf-8
