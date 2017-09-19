@@ -31,9 +31,6 @@ set nu
 " 搜索不区分大小写，但键入了大写则自动区分大小写
 set ignorecase smartcase
 
-noremap qq <ESC>:q!<CR>
-noremap tsq <ESC>:wq<CR>
-
 " 空格键向上滚屏 光标不变
 nnoremap <SPACE> 2<C-e>
 noremap <C-j> 3<C-e>
@@ -44,9 +41,6 @@ imap <C-h> <ESC>i
 imap <C-l> <ESC>la
 
 imap jk <ESC>
-
-imap vv <ESC>:w<cr>
-map vv <ESC>:w<cr>
 
 set expandtab
 set shiftwidth=4
