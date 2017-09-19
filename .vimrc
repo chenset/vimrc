@@ -57,3 +57,6 @@ syntax enable
 " 换行不注释
 " 注意: 与imap jk <ESC> 冲突
 set paste
+
+" nginx reload
+map <f2> :w\|!nginx -s reload
