@@ -44,3 +44,12 @@ set paste
 
 " nginx reload
 map <f2> :w\|!nginx -s reload
+
+" 不备份
+set nobackup
+
+" 搜索高亮
+set hls
+
+" 不产生swp文件
+set noswapfile
