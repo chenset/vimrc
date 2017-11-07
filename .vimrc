@@ -1,6 +1,7 @@
 " for windows
 source $VIMRUNTIME/mswin.vim
 behave mswin
+set guioptions-=T  "remove toolbar
 
 " add by xhat
 set encoding=utf-8
