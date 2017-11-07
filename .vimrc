@@ -1,6 +1,6 @@
 " for windows
 source $VIMRUNTIME/mswin.vim
-behave mswi
+behave mswin
 
 " add by xhat
 set encoding=utf-8
