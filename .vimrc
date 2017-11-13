@@ -25,8 +25,6 @@ set laststatus=2
 " 不折叠
 " set foldlevelstart=99
 
-imap jk <ESC>
-
 set expandtab
 set shiftwidth=4
 set tabstop=4
@@ -39,9 +37,11 @@ set bs=2
 " 语法高亮
 syntax enable
 
-" 换行不注释
-" 注意: 与imap jk <ESC> 冲突
-set paste
+" 注意: 与imap jk <ESC> 冲突, 使用F9切换粘贴模式
+" set paste, 切换
+set pastetoggle=<f9>
+
+imap jk <ESC>
 
 " nginx reload
 map <f2> :w\|!nginx -s reload
