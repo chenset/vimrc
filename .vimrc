@@ -2,7 +2,7 @@
 source $VIMRUNTIME/mswin.vim
 behave mswin
 
-set guioptions-=M  "remove menubar
+set guioptions-=m  "remove menubar
 set guioptions-=T  "remove toolbar
 
 " add by xhat
