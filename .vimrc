@@ -19,6 +19,9 @@ nnoremap <SPACE> 2<C-e>
 noremap <C-j> 3<C-e>
 noremap <C-k> 3<C-y>
 
+noremap H ^
+noremap L $
+
 set ambiwidth=double
 
 " 状态栏格式定义
