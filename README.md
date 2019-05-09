@@ -6,5 +6,5 @@ just for my vim
 curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc > ~/.vimrc
 
 # 追加
-curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc >> ~/.vimrc
 ```
