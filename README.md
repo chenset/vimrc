@@ -31,9 +31,9 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 - F9 切换paste/insert模式
 
 ```
-# 替换到原配置文件
-curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc > ~/.vimrc
-
 # 追加到原配置文件
 curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc >> ~/.vimrc
+
+# 替换到原配置文件
+# curl https://raw.githubusercontent.com/chenset/vimrc/master/.vimrc > ~/.vimrc
 ```
